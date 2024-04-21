@@ -1,0 +1,30 @@
+.heading{
+    color: blueviolet;
+    background-color: aqua;
+}
+
+.box{
+    height:100px;
+    width:200px;
+    border:1px solid red;
+    margin:20px;
+    text-align: center;
+    background-color: aqua;
+    vertical-align: middle;
+    align-content: center;
+}
+
+.box:hover{
+    background-color: blueviolet;
+    opacity: 50%;
+}
+
+
+.para{
+    background-color: aqua;
+    color:blueviolet;
+}
+
+.newClass{
+    border:3px solid blueviolet
+}

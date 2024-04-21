@@ -1,0 +1,85 @@
+h1{
+    text-align: center;
+    align-items: center;
+    color: rgba(76, 0, 255, 0.932);
+}
+h2{
+    text-align: center;
+    color: blueviolet;
+}
+body{
+    background-color: pink;
+}
+.head{
+    height: 150px;
+    border:2px solid black;
+    margin: 25px;
+    background-color: aqua;
+}
+
+.paper{
+    height: 198px;
+    
+    border:1px solid  black;
+    align-content: center;
+    
+}
+
+.rock{
+    margin-left: 100px;
+    border:1px solid  black
+}
+
+.scissor{
+    margin-left: 100px;
+    border:1px solid  black
+}
+img{
+    object-fit: cover;
+    border-radius: 40%;
+    align-items: center;
+    justify-content:center ;
+}
+
+img:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    gap:20rem;
+    text-align: center;
+    align-items: center;
+    font-size: 2rem;
+}
+#user-score,#comp-score{
+    font-size: 4rem;
+}
+.images{
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+.msg-cont{
+    text-align: center;
+    height: 2rem;
+}
+#msg:hover{
+    background-color: blueviolet;
+    opacity: 80%;
+    cursor: pointer;
+}
+#msg{
+    background-color: blue;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.choices{
+    display: inline;
+}
